@@ -150,12 +150,14 @@ console.log("hellow");
 //
 // }
 
-var cityName = prompt("enter your name");
-var city =  cityName.length;
-for( i = 0;i<city; i++){
-    if(cityName.slice(i,i+2)== "  "){
-        console.log("hey double space not allowed")
-    }else{
-    console.log("there is not any double space")
-}
-} 
+
+
+// var cityName = prompt("enter name of the city");
+// var city = cityName.length;               //another option (cityName.include("  "))
+// for(i = 0; i < city; i++){
+//     if(cityName.slice(i,i+2) == "  "){
+//         console.log("double space not allowed")
+//     }else{
+//         console.log("done")
+//     }
+// }
