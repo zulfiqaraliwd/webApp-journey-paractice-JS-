@@ -109,6 +109,25 @@ console.log("hellow");
 
 
 
+//----------------------
+// use break in loops
+//----------------------
+
+var cityToCheck = prompt("enter the city name")
+var cleanestCities = ["Cheyenne", "Santa Fe", "Tucson", "Great Falls", "Honolulu","skardu"];
+var matchFound = false;
+for(i = 0;i<cleanestCities.length;i++)
+  if(cityToCheck === cleanestCities[i]){
+    matchFound = true ;{
+alert("it is one of the cleanest city")
+break;
+    }
+  }
+  if(matchFound === false){
+    alert("it is not found")
+  }
+
+
 //----------------------------------------------------------------------------------------
 //upperCase
 //----------------------------------------------------------------------------------------
@@ -246,4 +265,6 @@ console.log("hellow");
 // }
 
 // var result = city.charAt(0)
-// console.log(result)
+// console.log(result);
+
+
