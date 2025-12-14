@@ -87,3 +87,25 @@ console.log("loops");
 //         }
 //     }
 // }
+
+
+
+// var firstName = ["zulfiqar","tariq","muntazir","danish","awais"]
+// var lastName = ["ali","rafiq","sahil","meerza"]
+// fullNames = [];
+
+// for(var i=0; i<firstName.length;i++){
+//     for(var j=0;j<lastName.length;j++){
+// fullNames.push(firstName[i]+lastName[j])
+//     }
+// }
+// console.log(fullNames)
+
+//first name and last name combinition
+
+// var firstName = ["zulfiqar","tariq","awais","danish","muntazir"]
+// var lastName = ["ali","rafiq","khan","meerza","sahil"]
+
+// for(var i=0;i<firstName.length;i++){
+//     console.log(firstName[i]+" "+lastName[i])
+// }
