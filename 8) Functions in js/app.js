@@ -83,7 +83,7 @@ console.log("functions")
 // var roll = 10
 // paragraph(name,roll,123)
 
-function paractice(a,b=4){    //b=bydefault value
-    console.log(a+b)
-}
-paractice(4,5)
+// function paractice(a,b=4){    //b=bydefault value
+//     console.log(a+b)
+// }
+// paractice(4,5)
