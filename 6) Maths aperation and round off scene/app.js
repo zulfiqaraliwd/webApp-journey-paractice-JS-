@@ -19,3 +19,9 @@ console.log("round off the numbers in js")
 // console.log(rounded1)
 // console.log(rounde2)
 // console.log(rounded3)
+
+
+//random number in js
+
+var randomNum = Math.random()
+console.log(Math.ceil(randomNum))
