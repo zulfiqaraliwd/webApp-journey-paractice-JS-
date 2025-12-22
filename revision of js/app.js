@@ -74,4 +74,38 @@ console.table("revision of js")
 
 // //accsess by arrY'S  length
 // console.log(arr[arr.length-1])
-// console.log(arr[arr.length-101]) //because we know that "zulfiqar ali " is at index 100 and total length of an array is 
+// console.log(arr[arr.length-101]) //because we know that "zulfiqar ali " is at index 100 and total length of an array.
+
+
+// -----------------------array methods-------------------------------
+
+// var arr = ["zulfi","danish","tariq"]
+// console.log(arr)
+
+// // arr.push("ali")
+// // console.log(arr)
+
+// console.log(arr.push("ali"))  ///it will return the length of an array not the array
+
+
+// var arr = ["ali","usman","malik","wali"]
+// arr.pop()
+// console.log(arr)
+
+// var num = arr.push(3)
+// console.log(num)
+
+
+// // arr[3] = "asad"
+// // arr.push("last value")
+// // arr.pop()
+// // arr.pop()
+// // push(last in) pop (last out)
+// // LIFO (last in last out)
+// // FIFO (first in first out)
+// // arr.unshift("first in")
+// // arr.shift()
+// // console.log(arr)
+
+
+
