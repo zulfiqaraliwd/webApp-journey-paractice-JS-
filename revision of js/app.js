@@ -170,6 +170,11 @@ console.table("revision of js")
 // From which side counting starts?
 
 // 🔵 splice() Practice (Instructions Only)
+
+//  var arr = [1,2,3,4,5]
+//  arr.splice(-1,2)
+//  console.log(arr)
+
 // Q5
 
 // Create an array of numbers.
@@ -247,9 +252,19 @@ console.table("revision of js")
 // console.log(arrNew)
 
 // ans 05
-var arr = ["a","b","c","d","e","f"];
-var newArr = arr.splice(1,2)
-// console.log("new Array  ",newArr)
-console.log("original array  ",arr)
+// var arr = ["a","b","c","d","e","f"];
+// var newArr = arr.splice(1,2)
+// // console.log("new Array  ",newArr)
+// console.log("original array  ",arr)
+
+// var arr = ["a",1,"b",2,"c",3,"d",4];
+// arr.splice(1,2,"ali","ahmed")
+// arr.splice(2,3,"aliii")
+// console.log(arr);
 
 
+
+
+var arr = [1,2,3,4,5]
+var newArr = arr.slice(2,3)
+console.log(newArr)
