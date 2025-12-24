@@ -107,5 +107,149 @@ console.table("revision of js")
 // // arr.shift()
 // // console.log(arr)
 
+// var myName = prompt("enter your name");
+
+// var myNameLentgh = myName.length;
+// if (myNameLentgh > 3) {
+//   var result = myName.slice(0, 3);
+//   console.log("result=>", result);
+// }
+
+// var name = prompt("enter your name")
+// var nameLength = name.length;
+// if(nameLength<3){
+//     console.log("enter valid name having more than 3 letters")
+// }
+// else{
+//     console.log(name)
+// }
+
+
+
+// var myName = prompt("enter your name");
+
+// var myNameLentgh = myName.length;
+// if (myNameLentgh > 3) {
+//   var result = myName.slice(0, 3);
+//   console.log("result=>", result);
+// }
+
+
+// Q1
+
+// Create an array of 5 numbers.
+// Use slice() to get elements from index 1 to index 3.
+// 👉 Check:
+
+// What is returned?
+
+// Does the original array change?
+
+// Q2
+
+// Create an array of strings (fruits).
+// Use slice() with only one argument (start index).
+// 👉 Observe:
+
+// From where to where elements are copied?
+
+// Q3
+
+// Create an array and make a copy of it using slice() with no arguments.
+// 👉 Check:
+
+// Is it a new array?
+
+// Are both arrays equal by reference?
+
+// Q4
+
+// Use slice() with a negative index on an array.
+// 👉 Observe:
+
+// From which side counting starts?
+
+// 🔵 splice() Practice (Instructions Only)
+// Q5
+
+// Create an array of numbers.
+// Use splice() to remove 2 elements starting from index 1.
+// 👉 Check:
+
+// What does splice return?
+
+// What happens to the original array?
+
+// Q6
+
+// Create an array of 3 elements.
+// Use splice() to add a new element at index 1 without removing anything.
+// 👉 Hint: deleteCount = 0
+// 👉 Observe array result.
+
+// Q7
+
+// Create an array of languages.
+// Use splice() to:
+
+// Remove 1 element
+
+// Add 2 new elements at the same position
+// 👉 Observe final array.
+
+// 🟡 slice vs splice (Concept Clear Tasks)
+// Q8
+
+// Create an array.
+// First use slice() on it, then log the array.
+// Then use splice() on the same array and log again.
+// 👉 Compare:
+
+// Which method changed the array?
+
+// Q9
+
+// Create an array of 5 numbers.
+// Use slice() and store its result in a variable.
+// Use splice() and store its result in another variable.
+// 👉 Compare:
+
+
+
+
+//paractice of slice and splice
+
+// var arr = [1,2,3,4,5]
+// var arr1 = arr.slice(0,3)
+// console.log(arr1)
+
+// Ans 01
+// var arr = [1,2,3,4,5]
+// arr.splice(0,3)
+// console.log(arr)
+
+// ans 02
+// var arrFruit = ["apple" , "banana", "orange", "pear" , "pineapple"];
+// var arrFnew = arrFruit.slice(0,2)
+// console.log(arrFnew)
+
+
+// ans 03
+// var arrFruit = ["apple" , "banana", "orange", "pear" , "pineapple"];
+// var arrNew = arrFruit.slice()
+// console.log("new array  " , arrNew)
+// console.log("original array "+arrFruit)
+// console.log(arrFruit)
+
+// ans 04
+// var arrFruit = ["apple" , "banana", "orange", "pear" , "pineapple"];
+// var arrNew = arrFruit.slice(-1,-2)
+// console.log(arrNew)
+
+// ans 05
+var arr = ["a","b","c","d","e","f"];
+var newArr = arr.splice(1,2)
+// console.log("new Array  ",newArr)
+console.log("original array  ",arr)
 
 
