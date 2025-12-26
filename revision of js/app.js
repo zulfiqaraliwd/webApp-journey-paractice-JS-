@@ -262,9 +262,92 @@ console.table("revision of js")
 // arr.splice(2,3,"aliii")
 // console.log(arr);
 
+// var arr = [1,2,3,4,5]
+// var newArr = arr.slice(2,3)
+// console.log(newArr)
+
+
+// var arr = ["q","b","l","s","u"]
+// var newArray = arr.slice(1,6)
+// console.log(newArray)
+
+
+// var arr = [1,2,3,4,5,6]
+// var newArray = arr.splice(1,8)
+// console.log(newArray)
 
 
 
-var arr = [1,2,3,4,5]
-var newArr = arr.slice(2,3)
-console.log(newArr)
+// ------------------Function paractices-------------
+
+// console.log("my name is zuliqar ali")
+// function name(){
+// }
+
+
+// name();
+
+
+// function sum(a,b,c){
+//     console.log(a+b+ "ali")
+    
+// }
+// sum(4,5 + "ali")
+
+// ---------------------------------------------------------------
+//          some questions which is for paractice
+//----------------------------------------------------------------
+
+
+// 1️⃣ Ek function banao jo console me "Hello JavaScript" print kare
+// function first(){
+//     console.log("hello")
+// }
+// first();
+
+
+// 2️⃣ Ek function likho jo do numbers le aur unka sum return kare.
+// function sum(a,b){
+//     console.log(a+b)
+//     return a+b;
+ 
+// }
+// sum(1,9)
+
+
+// 3️⃣ Ek function banao jo aik naam parameter me le aur console me likhe
+// function name(a){
+// console.log(a)
+// }
+// name("zulfiqara ali");
+
+
+// Function call se pehle aur baad console.log likho, dekhna kaunsa pehle run hota hai.
+// call(" up")
+// function call(a){
+//  console.log(a)
+// }
+// call("ali")
+// console.log("down")
+
+
+
+// 5️⃣ Function without return aur with return ka difference example ke sath dikhao.
+
+
+// function withOutReturn(a){
+// console.log(a)
+// }
+// withOutReturn("without return the function")
+
+
+
+// function withReturn(a,b){
+//    var result = console.log(a+b);
+//     return result;
+// }
+// withReturn(4,3)
+
+
+
+
