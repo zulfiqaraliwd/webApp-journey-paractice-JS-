@@ -348,6 +348,10 @@ console.table("revision of js")
 // }
 // withReturn(4,3)
 
-
-
-
+// function name(a,b){
+//    a+b;
+//   console.log(a-b) 
+//    return a+b
+// }
+// var result = name(4,5)
+// console.log(result);
