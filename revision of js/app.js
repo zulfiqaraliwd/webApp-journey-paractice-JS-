@@ -355,3 +355,43 @@ console.table("revision of js")
 // }
 // var result = name(4,5)
 // console.log(result);
+
+
+// Parameters & Arguments
+
+// 6️⃣ Ek function banao jo:
+// 1 number le
+// Agar even ho to "Even"
+// warna "Odd" return kare
+
+
+function even(){
+    var num =prompt("enter number")
+    if(num % 2 ===  0 ){
+return "Even"
+    }else{
+        return "odd"
+    }
+}
+
+var result = even()
+console.log(result)
+
+
+
+
+
+
+
+// 7️⃣ Aisa function likho jo:
+
+// 3 numbers le
+
+// unka average return kare
+
+// 8️⃣ Function me default parameter use karo:
+// Agar user age na de, to age = 18 ho.
+
+// 9️⃣ Function ko call karo:
+
+// greet("Zulfi")
