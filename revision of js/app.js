@@ -365,18 +365,17 @@ console.table("revision of js")
 // warna "Odd" return kare
 
 
-function even(){
-    var num =prompt("enter number")
-    if(num % 2 ===  0 ){
-return "Even"
-    }else{
-        return "odd"
-    }
-}
+// function even(){
+//     var num =prompt("enter number")
+//     if(num % 2 ===  0 ){
+// return "Even"
+//     }else{
+//         return "odd"
+//     }
+// }
 
-var result = even()
-console.log(result)
-
+// var result = even()
+// console.log(result)
 
 
 
@@ -384,14 +383,79 @@ console.log(result)
 
 
 // 7️⃣ Aisa function likho jo:
-
 // 3 numbers le
-
 // unka average return kare
+
+// function average(a,b,c){
+//   var sum = a+b+c
+//   var average  = sum/3;
+// return average;
+// }
+
+// console.log(average(2,2,2))
+
+
 
 // 8️⃣ Function me default parameter use karo:
 // Agar user age na de, to age = 18 ho.
 
-// 9️⃣ Function ko call karo:
+// function age(name,age=18){
+// console.log(name,age)
+// }
+// age("zulfiqar ali")
 
-// greet("Zulfi")
+
+// OR with return
+
+
+
+// function detail(name,age=18){
+//     return name + " " +age
+// }
+// var sDetail = detail("zulfi")
+// console.log(sDetail)
+
+
+// 9️⃣ Function ko call karo:
+// greet("Zulfi"))
+
+// function greet(){
+//     console.log("hi zulfi")
+// }
+
+// greet()
+
+
+// 🔟 Ek function likho jo:
+// console.log("Start")
+// return "Done"
+// console.log("End")
+
+
+// function done(){
+//     console.log("start function")
+//     return "Done"
+
+//     console.log("end function")
+// }
+
+// done()
+
+
+// convert normal function in arrow function
+// function square(num) {
+//   return num * num
+// }
+
+
+// Firstfunction = ()=> console.log("hi");  // this is normal function
+// square = (num) => num*num
+
+// console.log(square(7,7))
+
+
+// let hello = function() {
+//   return "Hello World!";
+// }
+
+//arrow function is on the way
