@@ -1,0 +1,11 @@
+#container{
+border: 5px solid black;
+width: 800px;
+height: 500px;
+text-align: center;
+}
+
+#inc{
+    height: 50px;
+    width: 100px;
+}
