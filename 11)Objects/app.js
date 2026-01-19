@@ -102,11 +102,37 @@ console.log("objects")
 //---------------------------------------------------
 
 
+// var obj = {
+//     name : "zulfiqar ali",
+//     age : 23,
+//     id : "77",
+//     qualifications : "undergraduate"
+// }
+
+// console.log("name" in obj)
+
+
+
+//-------------------------------------------
+//      object laterals
+//-------------------------------------------
+
+// var obj = {};
+
+// obj.name = "zulfiqar ali";
+// obj.age = 33;
+
+// console.log(obj)
+
+
+// ---------------------------------------------------------------------------
+// Methods (when in an object the value perform any action is method e.g functions) 
+// ---------------------------------------------------------------------------
+
 var obj = {
     name : "zulfiqar ali",
-    age : 23,
-    id : "77",
-    qualifications : "undergraduate"
+    age : 88,
+    speed: function speedOf(){
+console.log("speeed is average")
+    }
 }
-
-console.log("name" in obj)
