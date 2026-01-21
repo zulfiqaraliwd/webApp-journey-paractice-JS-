@@ -129,10 +129,75 @@ console.log("objects")
 // Methods (when in an object the value perform any action is method e.g functions) 
 // ---------------------------------------------------------------------------
 
-var obj = {
-    name : "zulfiqar ali",
-    age : 88,
-    speed: function speedOf(){
-console.log("speeed is average")
-    }
-}
+// var obj = {
+//     name : "zulfiqar ali",
+//     age : 88,
+//     speed: function speedOf(){
+// console.log("speeed is average")
+//     }
+// }
+
+// obj.educaton = "undergraduates"  //method to add elements in obj
+
+// obj["userName"] = "alizulfi"   //another method to add elements in obj
+
+// console.table(obj)
+
+// var obj = new Object()
+// var name = "ibrahim"
+ 
+// var obj1 = {
+//     name:"zulfiqar ali",
+//     age : "55",
+//     address : "manzoor colony",
+//     working : ()=> {return console.log(`my name is ${name} and i am ${age} years old so i am leaving in ${address}`)}
+// }
+
+// console.log(obj1.working())
+
+
+
+
+
+// -----------------------------------------------------------------
+//          advance object(object constructor)
+// -----------------------------------------------------------------
+
+
+//three way to conctruct the object 
+// const obj = new Object();
+// const obj2 = {}; //object literals
+// const obj3 = Object.create(null)
+
+
+// var obj = {
+//     name : ["zulfiqar","ali","sibtain"],
+//     bio : {city:"karachi",state : "sindh", country: "pakistan"}
+// }
+// console.log(obj.name[2])
+// console.log(obj.bio.city)
+
+// we can access by this method *(obj["bio"]["city"])* if we operate dynamically like prompt.
+
+// var nameOfStudent = prompt("enter the names/bio as you required")
+
+// var obj = {
+//     name : ["zulfiqar","ali","sibtain"],
+//     bio : {city:"karachi",state : "sindh", country: "pakistan"}
+// }
+
+//  console.log(obj[nameOfStudent])
+
+
+//  var obj = {
+//      name : ["zulfiqar","ali","sibtain"],
+//      bio : {city:"karachi",state : "sindh", country: "pakistan"}
+// }
+
+// console.log("access by dot name  ",obj.name[0])
+// console.log("access by dot bio  ",obj.bio)
+// console.log("access by bracket name ",obj["name"])
+// console.log("access by bracket bio  ",obj["bio"]["city"])
+
+
+
