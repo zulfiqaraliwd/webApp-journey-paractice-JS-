@@ -120,3 +120,13 @@ console.log("high order functions")
 // console.log(arr)
 
 
+
+
+// =============================map in js=====================
+var arr = [1,2,3,4,5,6,7,8,9]
+
+const newMap = arr.map((num)=> num * 2)
+
+console.log(newMap)
+
+
