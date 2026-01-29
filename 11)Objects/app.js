@@ -201,3 +201,37 @@ console.log("objects")
 
 
 
+// ---------------------------------------------------------------------
+//        mutable and immutable(premittive and non-premitive)
+// ---------------------------------------------------------------------
+
+
+//create an object 
+var obj = {
+    name : "ali",
+    age : 88
+}
+
+console.log(obj)
+
+// assign different value to that
+obj.name = "asad"
+
+// console it
+console.log(obj)  // the "ali" changed into "asad"
+
+
+
+
+
+// immutable
+
+var x = 4;
+var y = x
+
+y = 3;
+
+console.log(x)
+console.log(y)
+
+

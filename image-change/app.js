@@ -9,7 +9,7 @@ function change() {
     image.src="https://i.ytimg.com/vi/tNE-i9g3ty4/hqdefault.jpg";
   }
 
-  changingImage = !changingImage
+  changingImage = !changingImage;
 
 }
 
