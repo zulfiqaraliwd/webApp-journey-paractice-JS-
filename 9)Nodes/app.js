@@ -22,3 +22,4 @@
 // var text = document.createTextNode("this is h2");
 // h2.appendChild(text)
 // var res = document.body.appendChild(h2)
+// document.body.removeChild(h2)
