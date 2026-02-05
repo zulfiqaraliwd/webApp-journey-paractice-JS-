@@ -31,19 +31,60 @@
 
 
 
-const obj = {
-    student : function test(){
-return this.fname  + " " + this.lname  + " " + this.age  + " " + this.education
-    }
-}
+// const obj = {
+//     student : function test(){
+// return this.fname  + " " + this.lname 
+//     }
+// }
 
-const obj1 = {
-    fname : "zulfiqar",
-    lname : "ali"
-}
+// const obj1 = {
+//     fname : "zulfiqar",
+//     lname : "ali"
+// }
 
-const obj2 = {
-    age : 22,
-   education : "undergraduate"
- }
-console.log(obj.student.call(obj1),obj.student.call(obj2))
+// const obj2 = {
+//     age : 22,
+//    education : "undergraduate"
+//  }
+// console.log(obj.student.call(obj1))
+
+
+// -----------------------------------------------------------------
+// method calling
+// -----------------------------------------------------------------
+
+
+// const obj  = {
+//     fname : "zulfi",
+//     lname : "ali",
+//     fullName : function (){
+//         return (this.fname +  " "  + this.lname)
+//     }
+// }
+// console.log(obj.fullName())     
+
+
+
+// ---------------------------------------------------------------
+// call in js
+// --------------------------------------------------------------
+
+// const person = {
+//     fullname:function (){
+//        return this.fname + " " +this.lname
+//     }
+// }
+
+// let person1 = {
+//     fname : "zulfi",
+//     lname : "ali"
+// }
+// let person2 = {
+//     fname : "tariq",
+//     lname : "rafiq"
+// }
+
+// console.log(person.fullname.call(person1))
+
+
+
