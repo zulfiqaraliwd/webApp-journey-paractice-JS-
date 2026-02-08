@@ -88,3 +88,11 @@
 
 
 
+// const obj = {
+//     name : "ali"
+// }
+// let greet = function(a,b){
+//     return `${a} , ${this.name}. ${b}`
+// }
+
+// console.log(greet.call(obj,"Hellow","How are you?"))
