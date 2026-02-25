@@ -1,9 +1,11 @@
   import { initializeApp } from "https://www.gstatic.com/firebasejs/12.9.0/firebase-app.js";
   import { getAuth, createUserWithEmailAndPassword } from "https://www.gstatic.com/firebasejs/12.9.0/firebase-auth.js";
+import dotenv from "dotenv";
+dotenv.config();
 
   
   const firebaseConfig = {
-    apiKey: "AIzaSyDbIRUm3YJDiUgn77a4_4S2jGvYISeyVB4",
+    apiKey: process.env.FIREBASE_API_KEY,
     authDomain: "signup-app-b2820.firebaseapp.com",
     projectId: "signup-app-b2820",
     storageBucket: "signup-app-b2820.firebasestorage.app",
@@ -15,23 +17,22 @@
   // Initialize Firebase
 const app = initializeApp(firebaseConfig);
 const auth = getAuth(app);  
-window.signup = async function() {
-  const name = document.getElementById("name").value; // ← add this
+
+  async function signup() {
+  const name = document.getElementById("name").value;
   const email = document.getElementById("email").value;
   const password = document.getElementById("password").value;
 
   try {
-    const userCredential = await createUserWithEmailAndPassword(auth, email, password);
-    const user = userCredential.user;
-
-    // Optional: save name in Firestore
-    // await setDoc(doc(db, "users", user.uid), { name, email, uid: user.uid });
-
-    alert("Signup successful! User UID: " + user.uid);
+    const userCredential = await createUserWithEmailAndPassword(auth,email, password);
+    alert("Signup successful: " + userCredential.user.uid);
   } catch (error) {
-    alert("Error: " + error.message);
+    alert(error.message);
   }
 }
+
+const reg = document.getElementById("signup")
+reg.addEventListener('click',signup)
 
 
 
